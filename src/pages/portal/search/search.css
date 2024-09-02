@@ -1,0 +1,38 @@
+.top-navbar {
+    position: relative;
+}
+
+.search-input {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+    width: 100vw;
+    gap: 10px;
+}
+
+.wish-list {
+    position: relative;
+    top: 150px;
+}
+
+.result-padding,
+.wishlist-items {
+    padding: 40px 50px;
+}
+.inputsearch{
+    border: none;
+}
+
+.wish-list-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.result-heading {
+    color: white;
+    /* padding: 20px; */
+    padding-bottom: 30px;
+}

@@ -1,0 +1,138 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-banner {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.6) 0%,rgba(0, 0, 0, 0.7) 70%),
+    url(../../assets/images/banner.jpg) center/cover no-repeat;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(0, 0, ) 70%);
+}
+.header{
+    margin-top: 300px;
+    margin-bottom: 15px;
+}
+.maincontent{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.content1{
+    line-height: 35px;
+    font-size: 26px;
+}
+.secondbanner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.heading{
+    margin-right: 34px;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    height: 90vh;
+}
+.getted{
+    border: none;
+    border-radius: 5px;
+}
+.content-box {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.stranger{
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    top: 250px;
+    width: 23vw;
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.strangercontent{
+    margin-left: 15px;
+    margin-top: 10px ;
+    line-height: 25px;
+    font-size: 13px;
+}
+.strangercontent p{
+    margin-top: 4px;
+    margin-left: 2px;
+    color: blue;
+}
+.strangerdownload{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.container-two{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.heading3{
+    position: absolute;
+    margin-left: 1050px;
+    width: 370px;
+    line-height: 65px;
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content3{
+    position: absolute;
+    margin-left: 1230px;
+    margin-top: 580px;
+    font-size: 26px;
+    width: 550px;
+    line-height: 30px;
+}
+.four{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.heading4{
+    position: absolute;
+    margin-left: 1130px;
+    width: 450px;
+    line-height: 65px;
+    margin-top: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content4{
+    position: absolute;
+    margin-left: 1145px;
+    margin-top: 540px;
+    font-size: 26px;
+    width: 470px;
+    line-height: 34px;
+}
+@media screen and (max-width: 576px) {
+	.content-box {
+		flex-direction: column;
+		padding-bottom: 90px;
+	}
+
+	.main-title {
+		gap: 7px;
+	}
+}

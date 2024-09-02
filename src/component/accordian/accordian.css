@@ -1,0 +1,82 @@
+.accordian-section {
+  padding: 20px 10%;
+  border-bottom: 8px solid #232323;
+  border-top: 4px solid #232323;
+}
+
+.accord-head {
+  gap: 20px;
+}
+
+.accordian-section>.content-box {
+  margin-top: 10px;
+}
+
+.accordian-question {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.accordian-answer {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.accordian-section>.center {
+  padding: 50px 0px 10px 0px;
+}
+
+.accord-container {
+  margin-top: 4px;
+  background-color: #232323;
+  color: white;
+  cursor: pointer;
+  padding: 25px 20px;
+  width: 90%;
+  margin-left: 30px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.down-icon {
+  height: 30px;
+  width: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.accord-content {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 1s linear, opacity 1s linear;
+  background-color: #232323;
+  margin-top: 3px;
+}
+.accord-show {
+  opacity: 1;
+  height: auto;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 35px;
+  margin-left: 30px;
+  padding: 10px 18px;
+  font-size: 35px;
+  margin-top: 2px;
+}
+
+.rotate {
+  transform: rotate(135deg);
+  transition: 0.3s ease;
+}
+
+.derotate {
+  transform: rotate(-90deg);
+  transition: 0.3s ease;
+}

@@ -1,0 +1,136 @@
+
+.left-icons {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-card {
+    min-width: 230px;
+    max-width: 230px;
+    height: 110px;
+    position: relative;
+    object-fit: contain;
+    margin-bottom: 20px;
+    object-position: bottom;
+    transition: box-shadow 0.3s ease;
+}
+
+.card-img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.card-img>img {
+    border-radius: 3px;
+}
+
+.card-content {
+    visibility: hidden;
+    margin-top: -3px;
+    height: 100%;
+    width: 115.5%;
+    background-color: #141414;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.single-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.play-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.heart-icon {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.likes{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.rating {
+    padding: 10px;
+}
+
+.rating-value {
+    display: flex;
+}
+
+.star-icon {
+    height: 15px;
+    width: 15px;
+    color: gold;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.movie-title {
+    padding: 0px 5px 5px 13px;
+}
+
+.card-img:hover>.card-content {
+    visibility: visible;
+    transition: 0.5s;
+    position: absolute;
+    z-index: 100;
+    top: 140px;
+    left: -15px;
+    right: 10px;
+}
+
+.card-img:hover>img {
+    height: 140%;
+    width: 115%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+    z-index: 1;
+    top: -15px;
+    bottom: 0px;
+    left: -15px;
+    right: 10px;
+}
+
+.test:hover {
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 0px 1px 2px;
+}
+
+.card-img:hover>.card-content {
+    box-shadow: rgba(222, 218, 218, 0.16) 0px 0px 0px 0px,
+        rgba(222, 218, 218, 0.16) 0px 1px 4px, rgba(222, 218, 218, 0.16) 0px 1px 4px,
+        rgba(222, 218, 218, 0.16) 0px 1px 4px;
+}
+
+.card-content:hover>.card-img {
+    box-shadow: rgba(222, 218, 218, 0.16) 0px 0px 0px 0px,
+        rgba(222, 218, 218, 0.16) 0px 1px 4px, rgba(222, 218, 218, 0.16) 0px 1px 4px,
+        rgba(222, 218, 218, 0.16) 0px 1px 4px;
+}
+
+.five-grid {
+    display: flex;
+}
+

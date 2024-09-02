@@ -1,0 +1,33 @@
+.hero-banner {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.hero-img {
+    height: 100vh;
+    width: 98.7vw;
+}
+.watchlater{
+    background-color: grey;
+    font-size: 18px;
+}
+.hero-img>img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-content {
+    position: absolute;
+    top: 55%;
+    left: 4%;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 8px;
+}
+.moreicon{
+    height: 30px;
+    width: 30px;
+}

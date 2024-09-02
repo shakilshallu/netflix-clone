@@ -1,0 +1,81 @@
+.bold {
+    font-weight: 700;
+    font-size: xxx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #000;
+}
+
+.contentvalues {
+    font-size: larger;
+    font-weight: 100;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    text-align: left;
+}
+
+.faq-heading {
+    justify-content: center;
+    display: flex;
+    font-size: 45px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.hero-text {
+    padding-right: 30%;
+    padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+	.bold {
+		padding: 0px 40px;
+		font-size: xx-large;
+	}
+	.contentvalues {
+		padding: 2px 30px;
+		font-size: small;
+		font-weight: 400;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.bold {
+		font-size: x-large;
+	}
+	.contentvalues {
+		padding-top: 10px;
+		padding-right: 20px;
+		font-size: small;
+		font-weight: 400;
+	}
+}
+
+@media screen and (max-width: 321px) {
+	.bold {
+		margin-top: 15%;
+		font-size: larger;
+	}
+	.contentvalues {
+		padding-top: 0px;
+		padding-right: 20px;
+		font-size: small;
+		font-weight: 400;
+	}
+}
